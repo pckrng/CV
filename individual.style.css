@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.columnOne {
+  background-color: black;
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+
+.columnTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: cadetblue;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: bisque;
+  font-family: 'Sniglet', cursive;
+  top: 30%;
+  font-size: 5vw;
+  cursor: pointer;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'sniglet', 'cursive';
+  font-size: 26px;
+  text-shadow: black 2px 2px;
+}
+
+h1:hover {
+  color: cadetblue;
+  text-shadow: sandybrown 3px 3px;
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'sniglet', 'cursive';
+  font-size: 38px;
+  text-shadow: black 2px 2px;
+  color: bisque;
+}
+
+a {
+  color: bisque;
+  font-family: 'sniglet';
+  top: 40%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p {
+  color: black;
+  font-family: 'sniglet';
+}
+
+#navBar {
+  margin-top: 40%;
+  text-align: center;
+}
+
+#navBar a {
+  padding-right: 3em;
+}
+
+img {
+  width: 85%;
+  height: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+#container {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding-left: 6vw;
+  padding-top: 2vh;
+}
+
+#moreInfo {
+  margin-bottom: 2vh;
+  background-color: sandybrown;
+  border-radius: 8px;
+  padding: 1em;
+  padding-bottom: 2em;
+  width: 79%;
+  -webkit-box-shadow: rgba(8, 8, 8, 0.322) 2px 2px 2px 2px;
+          box-shadow: rgba(8, 8, 8, 0.322) 2px 2px 2px 2px;
+}
+
+.mainImage img {
+  -webkit-box-shadow: rgba(8, 8, 8, 0.322) 2px 2px 2px 2px;
+          box-shadow: rgba(8, 8, 8, 0.322) 2px 2px 2px 2px;
+}
+
+.mainImage {
+  margin-bottom: 2vh;
+}
+
+.link {
+  text-align: left;
+  margin-bottom: 1.5em;
+  background-color: salmon;
+  width: 50%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  -webkit-box-shadow: rgba(153, 63, 63, 0.459) 2px 2px 2px 2px;
+          box-shadow: rgba(153, 63, 63, 0.459) 2px 2px 2px 2px;
+}
+
+.link:hover {
+  -webkit-box-shadow: rgba(153, 63, 63, 0.74) 2px 2px 2px 2px;
+          box-shadow: rgba(153, 63, 63, 0.74) 2px 2px 2px 2px;
+}
+
+.link a:hover {
+  color: rgba(75, 3, 3, 0.644);
+}
+/*# sourceMappingURL=individual.style.css.map */
