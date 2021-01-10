@@ -294,4 +294,15 @@ button:hover {
 #title {
   padding-bottom: .25em;
 }
+
+#galleryPress img {
+  width: 20vh;
+  height: 20vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#galleryPress {
+  padding-left: 6em;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV:JP</title>
+</head>
+<body>
+    <div class="columnOne">
+        <div class="animate__animated animate__bounceIn" id="navBar">
+        <h1 class="animate__animated animate__bounceIn">JOE PICKERING</h1>
+        
+            <a href="./index.html">Home</a>
+            <a href="./cv.index.html">CV</a>
+        <a>Recent Work</a>
+        <a href="./contact.index.html">Contact Me</a>
+    </div>
+    </div>
+    
+    <div class="columnTwo" style="align-items: center;">
+<div class="imageContainer">
+    <div class="row">
+        <div class="column">
+          <img src="./Assets/20451894_1901113806793458_7119997835844578853_o.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="./Assets/20449201_1901113593460146_1048360784366750372_o.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="./Assets/20615813_1901113753460130_553561044161343767_o.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="./Assets/11270366_1590674367837405_7645464299251035609_o.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="./Assets/85193687_2473583146213185_3509187193652379648_o.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="./Assets/12032731_1635744016663773_4547601270265272449_o.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="./Assets/16804399_1829198310651675_6956468110015177716_o.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="./Assets/14138246_1748997275338446_1735179596830862308_o.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="./Assets/11143598_1637410849830423_8928487420201733242_o.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+          </div>
+      </div>
+    </div>
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="./Assets/20451894_1901113806793458_7119997835844578853_o.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="./Assets/20449201_1901113593460146_1048360784366750372_o.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="./Assets/20615813_1901113753460130_553561044161343767_o.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="./Assets/85193687_2473583146213185_3509187193652379648_o.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="./Assets/12032731_1635744016663773_4547601270265272449_o.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="./Assets/16804399_1829198310651675_6956468110015177716_o.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="./Assets/14138246_1748997275338446_1735179596830862308_o.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="./Assets/11143598_1637410849830423_8928487420201733242_o.jpg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      </div>
+</div>
+<script src="./scripts.js"></script>
+</body>
+</html>
