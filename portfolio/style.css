@@ -81,11 +81,12 @@ p {
 }
 
 .intro {
-  padding-top: 10%;
+  width: 90%;
+  margin-left: 2vw;
 }
 
 #navBar {
-  margin-top: 50%;
+  margin-top: 45%;
   text-align: center;
 }
 
