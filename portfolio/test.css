@@ -168,8 +168,8 @@ img {
     background-color: black;
     margin: auto;
     padding: 0;
-    width: 400px;
-    height: 600px;
+    width: 28%;
+    height: 100%;
   }
   
   /* The Close Button */
@@ -261,6 +261,6 @@ img {
     cursor: pointer;
 }
 
-.imageContainer {
+#imageContainer {
     left: 5%;
 }
