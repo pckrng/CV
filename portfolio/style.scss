@@ -282,3 +282,9 @@ button:hover {
     padding-left: 6em;
 }
 
+
+#gallery img {
+    width: 13em;
+    height: 13em;
+    object-fit: cover;
+}

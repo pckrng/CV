@@ -264,3 +264,7 @@ img {
 #imageContainer {
     left: 5%;
 }
+
+#gallery img {
+  margin: .5em;
+}

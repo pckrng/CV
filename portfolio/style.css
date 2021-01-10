@@ -305,4 +305,11 @@ button:hover {
 #galleryPress {
   padding-left: 6em;
 }
+
+#gallery img {
+  width: 13em;
+  height: 13em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
