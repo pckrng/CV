@@ -243,6 +243,7 @@ input[type=submit]:hover {
   margin-top: 2vh;
   text-align: left;
   letter-spacing: 3px;
+  padding: 2em;
 }
 
 #edu {
@@ -276,5 +277,21 @@ button:hover {
           box-shadow: black 3px 3px;
   cursor: pointer;
   background-color: rgba(255, 228, 196, 0.856);
+}
+
+.versionControl {
+  padding-bottom: 1em;
+}
+
+.basics {
+  padding-bottom: 1em;
+}
+
+.frameWorks {
+  padding-bottom: 1em;
+}
+
+#title {
+  padding-bottom: .5em;
 }
 /*# sourceMappingURL=style.css.map */
