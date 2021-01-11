@@ -7,3 +7,5 @@
 
 -- Site not yet responsive and is currently undergoing a huge overhaul after Brexit reclaimed my .eu domain!
 
+# -- Colour scheme inspiration: https://www.behance.net/gallery/109281451/_?tracking_source=curated_galleries_list
+
