@@ -48,8 +48,8 @@ h3 {
 }
 
 h1:hover {
-  color: cadetblue;
-  text-shadow: sandybrown 3px 3px;
+  color: #d93232;
+  text-shadow: #F2B29B 3px 3px;
 }
 
 h2:hover {
@@ -130,9 +130,10 @@ p {
 #contactMe {
   width: 39vw;
   height: 100%;
-  background-color: sandybrown;
+  background-color: #403D3C;
   border-radius: 8px;
   padding: 2vh;
+  margin-left: 2.25vw;
 }
 
 input[type=text], select, textarea {
@@ -156,6 +157,7 @@ input[type=text], select, textarea {
 
 label {
   font-family: 'sniglet';
+  color: #F2F2F2;
 }
 
 input[type=submit] {
@@ -171,7 +173,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: bisque;
-  color: black;
+  color: #F2F2F2;
 }
 
 #cardOne {

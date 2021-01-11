@@ -1,31 +1,35 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .columnOne {
-    background-color: black;
+    background-color: #403d3c;
     width: 50%;
     height: 100vh;
     float: left;
 }
 
-
 .columnTwo {
     display: flex;
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: cadetblue;
+    background-color: #d93232;
     height: 100vh;
     align-items: center;
 }
 
+.header {
+    width: 100%;
+    align-items: center;
+}
 
 h1 {
-    color: bisque;
+    color: #F2B29B;
     font-family: 'Sniglet', cursive;
-    top: 30%;
+    top: 40%;
     font-size: 5vw;
     cursor: pointer;
     text-align: center;
@@ -37,11 +41,9 @@ h3 {
     text-shadow: black 2px 2px;
 }
 
-
-
 h1:hover {
-    color: cadetblue;
-    text-shadow: sandybrown 3px 3px;
+    color: #d93232;
+    text-shadow: #F2B29B 3px 3px;
 }
 
 h2:hover {
@@ -52,34 +54,38 @@ h2 {
     font-family: 'sniglet', 'cursive';
     font-size: 38px;
     text-shadow: black 2px 2px;
-    color: bisque;
+    color: #F2B29B;
 }
 
 a {
-    color: bisque;
+    color: #F2F2F2;
     font-family: 'sniglet';
     top: 40%;
     cursor: pointer;
     text-decoration: none;
 }
 
+a:hover {
+    color: #F2B29B;
+}
 
 p {
-    color: black;
+    color: #F2F2F2;
     font-family: 'sniglet';
 }
 
+.intro {
+    width: 90%;
+    margin-left: 2vw;
+}
+
 #navBar {
-    margin-top: 45%;       
-    text-align: center;
+        margin-top: 45%;       
+        text-align: center;
 }
-
+    
 #navBar a {
-    padding-right: 3em;
-}
-
-#navBar a:hover {
-    color: cadetblue;
+        padding-right: 3em;
 }
 
 
@@ -100,7 +106,7 @@ img {
 
 #moreInfo {
     margin-bottom: 2vh;
-    background-color: sandybrown;
+    background-color: #403D3C;
     border-radius: 8px;
     padding: 1em;
     padding-bottom: 2em;
